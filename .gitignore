@@ -3,3 +3,7 @@
 /work/config.json
 /work/logs
 
+/crash
+/work/temp
+/work/protobuf
+/work/fridaJs
