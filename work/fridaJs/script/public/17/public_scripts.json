@@ -1,0 +1,115 @@
+{
+  "version": "17",
+  "description": "Frida 公共函数配置 - 根据检测模式自动注入到用户组合脚本中",
+  "scripts": [
+    {
+      "name": "FKLog",
+      "file": "FKLog.js",
+      "description": "Frida 日志工具",
+      "patterns": [
+        { "type": "constructor", "name": "FKLog" },
+        { "type": "member", "name": "fKLog" }
+      ]
+    },
+    {
+      "name": "FkConvert",
+      "file": "FkConvert.js",
+      "description": "数据格式转换",
+      "patterns": [
+        { "type": "constructor", "name": "FkConvert" },
+        { "type": "member", "name": "fkConvert" }
+      ]
+    },
+    {
+      "name": "JavaType",
+      "file": "JavaType.js",
+      "description": "Java 类型操作",
+      "patterns": [
+        { "type": "constructor", "name": "JavaType" },
+        { "type": "member", "name": "javaType" }
+      ]
+    },
+    {
+      "name": "StalkerTraceRangeC",
+      "file": "StalkerTraceRangeC.js",
+      "description": "Stalker 指令跟踪",
+      "patterns": [
+        { "type": "constructor", "name": "StalkerTraceRangeC" }
+      ]
+    },
+    {
+      "name": "SoftBreakPoint",
+      "file": "SoftBreakPoint.js",
+      "description": "软断点",
+      "patterns": [
+        { "type": "constructor", "name": "SoftBreakPoint" }
+      ]
+    },
+    {
+      "name": "MemoryBreakPointTrace",
+      "file": "MemoryBreakPointTrace.js",
+      "description": "内存断点跟踪",
+      "patterns": [
+        { "type": "constructor", "name": "MemoryBreakPointTrace" }
+      ]
+    },
+    {
+      "name": "MonitorNative",
+      "file": "MonitorNative.js",
+      "description": "Native 方法监控",
+      "patterns": [
+        { "type": "constructor", "name": "MonitorNative" }
+      ]
+    },
+    {
+      "name": "HttpServer",
+      "file": "HttpServer.js",
+      "description": "HTTP 服务器",
+      "patterns": [
+        { "type": "constructor", "name": "HttpServer" },
+        { "type": "member", "name": "httpServer" }
+      ]
+    },
+    {
+      "name": "LibcNative",
+      "file": "LibcNative.js",
+      "description": "libc 原生函数封装",
+      "patterns": [
+        { "type": "constructor", "name": "LibcNative" },
+        { "type": "member", "name": "libcNative" }
+      ]
+    },
+    {
+      "name": "FkFake",
+      "file": "FkFake.js",
+      "description": "Fake 实现",
+      "patterns": [
+        { "type": "constructor", "name": "FkFake" }
+      ]
+    },
+    {
+      "name": "SVCLogger",
+      "file": "SVCLogger.js",
+      "description": "SVC 调用日志",
+      "patterns": [
+        { "type": "constructor", "name": "SVCLogger" }
+      ]
+    },
+    {
+      "name": "JNILogger",
+      "file": "JNILogger.js",
+      "description": "JNI 调用日志",
+      "patterns": [
+        { "type": "constructor", "name": "JNILogger" }
+      ]
+    },
+    {
+      "name": "FKGTrace",
+      "file": "FKGTrace.js",
+      "description": "Frida Gumtrace高级跟踪",
+      "patterns": [
+        { "type": "constructor", "name": "FKGTrace" }
+      ]
+    } 
+  ]
+}
