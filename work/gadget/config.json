@@ -1,0 +1,143 @@
+{
+  "targets": [
+    {
+      "app_name": "vn.com.techcombank.bb.app",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/liblibchook.so"
+        }
+      ],
+      "child_gating": {
+        "enabled": false,
+        "mode": "freeze",
+        "injected_libraries": [
+          {
+            "path": "/data/local/tmp/zkfs/libfgg-child.so"
+          }
+        ]
+      }
+    },
+    {
+      "app_name": "vn.shb.saha.mbanking",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.VCB",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/system/lib64/libchook.so"
+        }
+      ]
+    },
+    {
+      "app_name": "icu.nullptr.nativetest",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/libtest.so"
+        }
+      ]
+    },
+    {
+      "app_name": "me.garfieldhan.holmes",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "bin.mt.plus",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "vn.com.vng.zalopay",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.android.vending",
+      "enabled":false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.google.android.gms",
+      "enabled": true,
+      "start_up_delay_ms": 0, 
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.zhiliaoapp.musically",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.ss.android.ugc.trill",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.ss.android.ugc.aweme.mobile",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    },
+    {
+      "app_name": "com.zing.zalo",
+      "enabled": false,
+      "start_up_delay_ms": 0,
+      "injected_libraries": [
+        {
+          "path": "/data/local/tmp/zkfs/libfgg.so"
+        }
+      ]
+    }
+  ]       
+}  
