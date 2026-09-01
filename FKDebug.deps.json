@@ -11,8 +11,8 @@
           "AdvancedSharpAdbClient": "3.4.14",
           "Blake3": "0.5.1",
           "BouncyCastle.Cryptography": "2.6.2",
-          "Dirkster.AvalonDock": "4.74.0",
-          "Dirkster.AvalonDock.Themes.VS2013": "4.74.0",
+          "Dirkster.AvalonDock": "5.0.0",
+          "Dirkster.AvalonDock.Themes.VS2013": "5.0.0",
           "Microsoft-WindowsAPICodePack-Shell": "1.1.5",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.4.0",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.122",
@@ -95,75 +95,99 @@
           }
         }
       },
-      "Dirkster.AvalonDock/4.74.0": {
+      "Dirkster.AvalonDock/5.0.0": {
+        "dependencies": {
+          "Dirkster.AvalonDock.Core": "5.0.0"
+        },
         "runtime": {
-          "lib/net5.0-windows7.0/AvalonDock.dll": {
-            "assemblyVersion": "4.74.0.0",
-            "fileVersion": "4.74.0.0"
+          "lib/net48/AvalonDock.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         },
         "resources": {
-          "lib/net5.0-windows7.0/ca-ES/AvalonDock.resources.dll": {
+          "lib/net48/ca-ES/AvalonDock.resources.dll": {
             "locale": "ca-ES"
           },
-          "lib/net5.0-windows7.0/cs-CZ/AvalonDock.resources.dll": {
+          "lib/net48/cs-CZ/AvalonDock.resources.dll": {
             "locale": "cs-CZ"
           },
-          "lib/net5.0-windows7.0/de/AvalonDock.resources.dll": {
+          "lib/net48/de/AvalonDock.resources.dll": {
             "locale": "de"
           },
-          "lib/net5.0-windows7.0/es/AvalonDock.resources.dll": {
+          "lib/net48/es/AvalonDock.resources.dll": {
             "locale": "es"
           },
-          "lib/net5.0-windows7.0/fr/AvalonDock.resources.dll": {
+          "lib/net48/fr/AvalonDock.resources.dll": {
             "locale": "fr"
           },
-          "lib/net5.0-windows7.0/hu/AvalonDock.resources.dll": {
+          "lib/net48/hu/AvalonDock.resources.dll": {
             "locale": "hu"
           },
-          "lib/net5.0-windows7.0/it/AvalonDock.resources.dll": {
+          "lib/net48/it/AvalonDock.resources.dll": {
             "locale": "it"
           },
-          "lib/net5.0-windows7.0/ja/AvalonDock.resources.dll": {
+          "lib/net48/ja/AvalonDock.resources.dll": {
             "locale": "ja"
           },
-          "lib/net5.0-windows7.0/ko/AvalonDock.resources.dll": {
+          "lib/net48/ko/AvalonDock.resources.dll": {
             "locale": "ko"
           },
-          "lib/net5.0-windows7.0/nl-BE/AvalonDock.resources.dll": {
+          "lib/net48/nl-BE/AvalonDock.resources.dll": {
             "locale": "nl-BE"
           },
-          "lib/net5.0-windows7.0/pl/AvalonDock.resources.dll": {
+          "lib/net48/pl/AvalonDock.resources.dll": {
             "locale": "pl"
           },
-          "lib/net5.0-windows7.0/pt/AvalonDock.resources.dll": {
+          "lib/net48/pt/AvalonDock.resources.dll": {
             "locale": "pt"
           },
-          "lib/net5.0-windows7.0/ro/AvalonDock.resources.dll": {
+          "lib/net48/ro/AvalonDock.resources.dll": {
             "locale": "ro"
           },
-          "lib/net5.0-windows7.0/ru/AvalonDock.resources.dll": {
+          "lib/net48/ru/AvalonDock.resources.dll": {
             "locale": "ru"
           },
-          "lib/net5.0-windows7.0/sv/AvalonDock.resources.dll": {
+          "lib/net48/sv/AvalonDock.resources.dll": {
             "locale": "sv"
           },
-          "lib/net5.0-windows7.0/zh-Hans/AvalonDock.resources.dll": {
+          "lib/net48/zh-Hans/AvalonDock.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net5.0-windows7.0/zh-Hant/AvalonDock.resources.dll": {
+          "lib/net48/zh-Hant/AvalonDock.resources.dll": {
             "locale": "zh-Hant"
           }
         }
       },
-      "Dirkster.AvalonDock.Themes.VS2013/4.74.0": {
+      "Dirkster.AvalonDock.Core/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/AvalonDock.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Dirkster.AvalonDock.Themes.VS/5.0.0": {
         "dependencies": {
-          "Dirkster.AvalonDock": "4.74.0"
+          "Dirkster.AvalonDock": "5.0.0",
+          "System.Text.Json": "10.0.10"
         },
         "runtime": {
-          "lib/net5.0-windows7.0/AvalonDock.Themes.VS2013.dll": {
-            "assemblyVersion": "4.74.0.0",
-            "fileVersion": "4.74.0.0"
+          "lib/net48/AvalonDock.Themes.VS.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Dirkster.AvalonDock.Themes.VS2013/5.0.0": {
+        "dependencies": {
+          "Dirkster.AvalonDock": "5.0.0",
+          "Dirkster.AvalonDock.Themes.VS": "5.0.0"
+        },
+        "runtime": {
+          "lib/net48/AvalonDock.Themes.VS2013.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -194,11 +218,11 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/9.0.10": {
+      "Microsoft.Bcl.AsyncInterfaces/10.0.10": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "9.0.0.10",
-            "fileVersion": "9.0.1025.47515"
+            "assemblyVersion": "10.0.0.10",
+            "fileVersion": "10.0.1026.32716"
           }
         }
       },
@@ -513,13 +537,13 @@
       },
       "Microsoft.Extensions.Logging.Console/9.0.10": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.10",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.10",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.10",
           "Microsoft.Extensions.Logging": "9.0.10",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.10",
           "Microsoft.Extensions.Logging.Configuration": "9.0.10",
           "Microsoft.Extensions.Options": "9.0.10",
-          "System.Text.Json": "9.0.10"
+          "System.Text.Json": "10.0.10"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll": {
@@ -673,11 +697,11 @@
           }
         }
       },
-      "System.IO.Pipelines/9.0.10": {
+      "System.IO.Pipelines/10.0.10": {
         "runtime": {
           "lib/netstandard2.0/System.IO.Pipelines.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.1025.47515"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
           }
         }
       },
@@ -700,28 +724,28 @@
           }
         }
       },
-      "System.Text.Encodings.Web/9.0.10": {
+      "System.Text.Encodings.Web/10.0.10": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.1025.47515"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
           }
         }
       },
-      "System.Text.Json/9.0.10": {
+      "System.Text.Json/10.0.10": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.10",
-          "System.IO.Pipelines": "9.0.10",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.10",
+          "System.IO.Pipelines": "10.0.10",
           "System.Runtime.CompilerServices.Unsafe": "6.1.2",
-          "System.Text.Encodings.Web": "9.0.10"
+          "System.Text.Encodings.Web": "10.0.10"
         },
         "runtime": {
           "lib/netstandard2.0/System.Text.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.1025.47515"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
           }
         }
       },
@@ -778,19 +802,33 @@
       "path": "bouncycastle.cryptography/2.6.2",
       "hashPath": "bouncycastle.cryptography.2.6.2.nupkg.sha512"
     },
-    "Dirkster.AvalonDock/4.74.0": {
+    "Dirkster.AvalonDock/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wIdjH313nywgwLs01xkezteqlyItvrExea+nhwU+UTO+wGz1Xe/ma2p5yP1H4CxzWHp/tZVPBn9DosmgEBi1CA==",
-      "path": "dirkster.avalondock/4.74.0",
-      "hashPath": "dirkster.avalondock.4.74.0.nupkg.sha512"
+      "sha512": "sha512-vVnKmsOp4kby8fZ6gPQHEqwuKmGx3gC1Bgt2zQ7wOdLay0pFBjtOxQ6mdCzTfGvZ2YWzG4PGwMOX94ifHh+NJA==",
+      "path": "dirkster.avalondock/5.0.0",
+      "hashPath": "dirkster.avalondock.5.0.0.nupkg.sha512"
     },
-    "Dirkster.AvalonDock.Themes.VS2013/4.74.0": {
+    "Dirkster.AvalonDock.Core/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OZti4p8FLnIlAfprsH8n1uV8yKXdlWaWucNJjRZJkW1CJKzhOZFPqx+2OwChiFM0/8Holq5clUOgLyUPZeR61w==",
-      "path": "dirkster.avalondock.themes.vs2013/4.74.0",
-      "hashPath": "dirkster.avalondock.themes.vs2013.4.74.0.nupkg.sha512"
+      "sha512": "sha512-PlIMOCpzU89vawS3/6IeeQnfaHz0Jy4exi3w8pQlhmmERT6Cgt5XxA9TjX+PU8jWcBgvpPX6g0EZrSRuuFE9gw==",
+      "path": "dirkster.avalondock.core/5.0.0",
+      "hashPath": "dirkster.avalondock.core.5.0.0.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock.Themes.VS/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JXEZpXsH+YPkT8EbHAomiuhFmI61v5u84Lfp2BGAnfe7GMC8WLMuUH2ou8ev2GK8tWJEowxN9i1hQtx1rLml9w==",
+      "path": "dirkster.avalondock.themes.vs/5.0.0",
+      "hashPath": "dirkster.avalondock.themes.vs.5.0.0.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock.Themes.VS2013/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qAzF15VJWxlsVM31Xeb9VksCKVJT8P2U++XLlBzN6g4Xx3by2hxk36b7+3emCQJCkQR/zYChktexjYk15PUwfg==",
+      "path": "dirkster.avalondock.themes.vs2013/5.0.0",
+      "hashPath": "dirkster.avalondock.themes.vs2013.5.0.0.nupkg.sha512"
     },
     "ExtendedNumerics.BigDecimal/3001.1.0.233": {
       "type": "package",
@@ -813,12 +851,12 @@
       "path": "microsoft-windowsapicodepack-shell/1.1.5",
       "hashPath": "microsoft-windowsapicodepack-shell.1.1.5.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/9.0.10": {
+    "Microsoft.Bcl.AsyncInterfaces/10.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iUfw06CsVKAliec4ML6Q91ozbQ8SKbiraIiQegECAPeMY8cGGagIbyZ9+PBtTJ0hx1//qpRqdXDkt51SDQ6k+Q==",
-      "path": "microsoft.bcl.asyncinterfaces/9.0.10",
-      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.10.nupkg.sha512"
+      "sha512": "sha512-TFI6OKYE1XZz4SGuTSH70c6SBdPpFktXsoa1gCxTr3mKrhmXirnvaS0tKz+J3ZWICEAmMpEGn59nO4ICtUpQXA==",
+      "path": "microsoft.bcl.asyncinterfaces/10.0.10",
+      "hashPath": "microsoft.bcl.asyncinterfaces.10.0.10.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Common/4.4.0": {
       "type": "package",
@@ -1002,12 +1040,12 @@
       "path": "system.diagnostics.diagnosticsource/9.0.10",
       "hashPath": "system.diagnostics.diagnosticsource.9.0.10.nupkg.sha512"
     },
-    "System.IO.Pipelines/9.0.10": {
+    "System.IO.Pipelines/10.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lwI0mhHcCxMtNSxB5ate9Gc9petWovRBUprtjz2yiIDDZPGBIaUiqNzQHJzjPuzTnvNbEMilpAXjDguKsU/2Fg==",
-      "path": "system.io.pipelines/9.0.10",
-      "hashPath": "system.io.pipelines.9.0.10.nupkg.sha512"
+      "sha512": "sha512-7WX0W96y3dpQdYG4sEGdh38g3/0lOD4/dKbn2rRVOVzKhzoZUn2gKNIKaFeKWs8RCbpFfmmEWsRhSy95hMpvqA==",
+      "path": "system.io.pipelines/10.0.10",
+      "hashPath": "system.io.pipelines.10.0.10.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.1.2": {
       "type": "package",
@@ -1023,19 +1061,19 @@
       "path": "system.text.encoding.codepages/10.0.8",
       "hashPath": "system.text.encoding.codepages.10.0.8.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/9.0.10": {
+    "System.Text.Encodings.Web/10.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-znmiJFUa0GGwq7t6ShUKBDRlPsNJaudNFI7rVeyGnRBhiRMegBvu2GRcadThP/QX/a5UpGgZbe6tolDooobj/Q==",
-      "path": "system.text.encodings.web/9.0.10",
-      "hashPath": "system.text.encodings.web.9.0.10.nupkg.sha512"
+      "sha512": "sha512-o16m2YpDN/pjHsnxf9pTGwkpcuvjW8v1/wGUwJtM1c3QZUKm7ZEO/eYRJg7iIx6GxS2Zv9lAMHpiQwHDdgqauA==",
+      "path": "system.text.encodings.web/10.0.10",
+      "hashPath": "system.text.encodings.web.10.0.10.nupkg.sha512"
     },
-    "System.Text.Json/9.0.10": {
+    "System.Text.Json/10.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XM02ZBnzxk7Ti6l9YRy8Bp639wANqJzJzw4W4VYiCh+HXY9hBOWkGB4k89OLP/s/RxgM02P4a/mWcJTgFiLf1Q==",
-      "path": "system.text.json/9.0.10",
-      "hashPath": "system.text.json.9.0.10.nupkg.sha512"
+      "sha512": "sha512-bmsO6UdYtBdtn32zYXfsh7KlyTIzV/3V9hdT9RIb4pXKgYOsNxXR+VbWigNwBtNFVGYGm6Hwmqw5a+/IWFd36Q==",
+      "path": "system.text.json/10.0.10",
+      "hashPath": "system.text.json.10.0.10.nupkg.sha512"
     },
     "NStratis.HashLib/1.0.0.1": {
       "type": "project",
